@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "WixMadefor";
-  src: url(../fonts/WixMadefor/);
+  src: url(../fonts/WixMadefor/WixMadeforDisplay-SemiBold.ttf);
 }
 @font-face {
   font-family: "daylin";
@@ -13,28 +13,17 @@
   src: url(../fonts/lecheet/Lecheet.ttf);
 }
 @font-face {
-  font-family: "lil-stuart";
-  src: url(../fonts/lil_stuart/LilStuart_PERSONAL_USE_ONLY.otf);
-}
-@font-face {
   font-family: "riseup";
   src: url(../fonts/riseup/Riseup.ttf);
 }
 @font-face {
-  font-family: "sweet-dreams-3";
-  src: url(../fonts/sweet_dreams_3/SWEET\ DREAMS.otf);
+  font-family: "Nunito";
+  src: url(../fonts/Nunito_Sans/NunitoSans_10pt_Expanded-ExtraLight.ttf);
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.bg-image {
-  background-size: cover;
-  background-position: top;
-  width: auto;
-  height: auto;
 }
 #portadaTexto1 {
   font-family: "lil-stuart";
@@ -48,28 +37,52 @@
   font-family: "daylin";
   font-size: 3rem;
 }
-#video{
-  font-family: "riseup";
-}
-#imagenes{
-  font-family: "riseup";
-}
-.section-heading{
-font-size: 4rem;
-}
-.section-subheading{
-font-size: 1ram;
-}
-#textomedio{ 
+#textomedio {
   font-family: "WixMadefor";
   font-size: 20px;
 }
-.table{
-  height: 50%;;
+#titulocv{
+  font-family: "riseup";
+  font-size: 4rem;
 }
+#introcv{
+  font-family: "Nunito";
+  font-size: 1rem;
+}
+#textocv{
+  font-family: "WixMadefor";
+  font-size: 20px;
+}
+#datoscontacto{
+  font-family: "WixMadefor";
+  font-size: 20px;
+}
+#video {
+  font-family: "riseup";
+}
+#imagenes {
+  font-family: "riseup";
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: top;
+  width: auto;
+  height: auto;
+}
+.section-heading {
+  font-size: 4rem;
+}
+.section-subheading {
+  font-size: 1ram;
+}
+
 main {
   height: 75%;
 }
 footer {
   height: 10%;
+}
+.widthvideo {
+  width: 40%;
 }
