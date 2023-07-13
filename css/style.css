@@ -76,6 +76,9 @@
 .section-subheading {
   font-size: 1ram;
 }
+.navbar-brand{
+  width: 210px;
+}
 
 main {
   height: 75%;
