@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300;1,900&family=Open+Sans:wght@300;600;800&display=swap");
+
+@font-face {
+  font-family: "WixMadefor";
+  src: url(../fonts/WixMadefor/);
+}
+@font-face {
+  font-family: "daylin";
+  src: url(../fonts/daylin/daylin.ttf);
+}
+@font-face {
+  font-family: "lecheet";
+  src: url(../fonts/lecheet/Lecheet.ttf);
+}
+@font-face {
+  font-family: "lil-stuart";
+  src: url(../fonts/lil_stuart/LilStuart_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+  font-family: "riseup";
+  src: url(../fonts/riseup/Riseup.ttf);
+}
+@font-face {
+  font-family: "sweet-dreams-3";
+  src: url(../fonts/sweet_dreams_3/SWEET\ DREAMS.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-image {
+  background-size: cover;
+  background-position: top;
+  width: auto;
+  height: auto;
+}
+#portadaTexto1 {
+  font-family: "lil-stuart";
+  font-size: 3rem;
+}
+#portadaTexto2 {
+  font-family: "lecheet";
+  font-size: 5rem;
+}
+#portadaTexto3 {
+  font-family: "daylin";
+  font-size: 3rem;
+}
+#video{
+  font-family: "riseup";
+}
+#imagenes{
+  font-family: "riseup";
+}
+.section-heading{
+font-size: 4rem;
+}
+.section-subheading{
+font-size: 1ram;
+}
+#textomedio{ 
+  font-family: "WixMadefor";
+  font-size: 20px;
+}
+.table{
+  height: 50%;;
+}
+main {
+  height: 75%;
+}
+footer {
+  height: 10%;
+}
