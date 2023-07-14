@@ -63,6 +63,9 @@
 #imagenes {
   font-family: "riseup";
 }
+#instagram{
+  width: 30px;
+}
 
 .bg-image {
   background-size: cover;
@@ -78,13 +81,6 @@
 }
 .navbar-brand{
   width: 210px;
-}
-
-main {
-  height: 75%;
-}
-footer {
-  height: 10%;
 }
 .widthvideo {
   width: 40%;
