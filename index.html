@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- ======================== METAS ======================== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======================== LINKS ======================== -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="shortcut icon"
       href="./media/iconos/favicon-logo.ico"
       type="image/x-icon"
     />
-    <title>Bienvenidos!!!</title>
+    <!-- ======================== TITLE ======================== -->
+    <title>Bienvenidos!!! - Micaela Jaqueline Saif - Acompañamiento Pedagógico</title>
   </head>
+  <!-- ======================== BODY ======================== -->
   <body
     class="bg-image bg-dark"
     id="arriba"
     style="
-      background-image: url(./media/imagens/fondo-de-pag.jpeg);
+      background-image: url(./media/imagens/fondo-de-pag.webp);
       background-size: cover;
     "
   >
+    <!-- ======================== HEADER-NAV ======================== -->
     <header>
       <nav class="navbar navbar-expand-lg navbar">
         <div class="container-fluid justify-content-between">
-          <a class="navbar-brand" href="#">
+          <!-- ======================== GIFT-MICA ======================== -->
+          <a class="navbar-brand" href="./index.html">
             <img
-              src="./media/videos/Micaela Jaqueline Saif.gif"
+              src="./media/videos/micaela_jaqueline_saif.gif"
               class="img-fluid rounded"
               alt="Micaela Jaqueline Saif"
             />
           </a>
+          <!-- ======================== BOTTON-NAV-MOBILE ======================== -->
           <button
             class="navbar-toggler border border-2 rounded border-success m-1"
             type="button"
@@ -46,15 +57,16 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- ======================== BOTTON-NAV ======================== -->
           <div
             class="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav">
+            <ul class="navbar-nav w">
               <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1 "
               >
-                <a class="nav-link text-white" href="./index.html">Inicio</a>
+                <a class="nav-link  text-white" href="./index.html">Inicio</a>
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
@@ -89,42 +101,41 @@
         </div>
       </nav>
     </header>
-
-    <main class="py-5">
+    <!-- ======================== MAIN ======================== -->
+    <main class="main py-5">
       <div class="container">
         <div
-          class="row justify-content-center text-center mt-5 pt-5 d-flex align-items-center flex-column text-white"
-          style="height: 100%"
+          class="main_index row justify-content-center text-center d-flex align-items-center flex-column text-white"
         >
-          <div class="col-md-8">
-            <div class="display-4" id="portadaTexto1">
-              Acompañamiento pedagogico
+          <div class="portada_texto col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="texto_1 display-4" id="portadaTexto1">
+              <h1 class="animate__animated animate__slideInDown animate__slower ">Acompañamiento pedagógico</h1>
             </div>
             <div class="lead text-white" id="portadaTexto2">
-              Te acompaño en tu camino de formación
+              <h2 class="animate__animated animate__pulse animate__slower ">Te acompaño en tu camino de formación</h2>
             </div>
             <div class="" id="portadaTexto3">
-              Los pasitos pequeños también te llevan a metas muy grandes
+              <h3 class="animate__animated animate__slideInUp animate__slower ">Los pasitos pequeños también te llevan a metas muy grandes</h3>
             </div>
           </div>
         </div>
       </div>
     </main>
-
-    <footer class="text-white py-3 fixed-bottom d-none d-md-block">
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="text-white py-3 fixed-bottom  ">
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
-          <div class="col-12 col-md-6 text-md-left">
-            <a href="mailto:jmsaiff@gmail.com">jmsaiff@gmail.com</a>
+          <div class="col text-start">
+            <a href="mailto:jmsaiff@gmail.com"><img class="animate__animated animate__heartBeat animate__slower" src="./media/iconos/gmail-icon-logo-svgrepo-com.svg" id="gmail" alt="jmsaiff@gmail.com"></a>
           </div>
-          <div class="col-12 col-md-6 text-md-end">
+          <div class="col text-end ">
             <a
-              class="text-white"
+              class="text-white "
               href="https://www.instagram.com/acompedago21/"
               target="_blank"
             >
-              <img
-                src="./media/iconos/instanegro.ico"
+              <img class="icono__instagram animate__animated animate__heartBeat animate__slower"
+                src="./media/iconos/instagram-1-svgrepo-com.svg"
                 id="instagram"
                 alt="instagram"
               />
@@ -133,7 +144,7 @@
         </div>
       </div>
     </footer>
-
+    <!-- ======================== SCRIPTS ======================== -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

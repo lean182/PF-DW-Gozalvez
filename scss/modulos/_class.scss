@@ -1,0 +1,35 @@
+.bg-image {
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+.section-heading {
+  font-size: 4rem;
+}
+.section-subheading {
+  font-size: 1ram;
+}
+.navbar-brand {
+  width: 210px;
+}
+.navbar-brand:hover {
+  width: 230px;
+}
+.navbar-brand:active {
+  width: 250px;
+}
+
+.widthvideo {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+}
+.header-videos {
+  background: rgb(255, 116, 130);
+  background: linear-gradient(
+    180deg,
+    rgb(243, 145, 155) 0%,
+    rgba(248, 217, 220, 1) 82%,
+    rgba(255, 243, 205, 1) 100%
+  );
+}
