@@ -1,35 +1,75 @@
-@media (max-width: 1200px) {
+/* @media (max-width: 2560px) {
   h1 {
-    font-size: 80%;
+    font-size: 100%;
   }
   h2 {
-    font-size: 70%;
+    font-size: 100%;
   }
   h3 {
-    font-size: 80%;
+    font-size: 100%;
   }
   h4{
-    font-size: 70%;
+    font-size: 90%;
   }
   h5{
-    font-size: 70%;
+    font-size: 90%;
   }
   h6{
-    font-size: 70%;
+    font-size: 90%;
   }
 
+} */
+@media (max-width: 1440px) {
+  /* h1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 90%;
+  }
+  h3 {
+    font-size: 90%;
+  }
+  h4{
+    font-size: 80%;
+  }
+  h5{
+    font-size: 80%;
+  }
+  h6{
+    font-size: 80%;
+  } */
 }
 @media (max-width: 1024px) {
   h1 {
+    font-size: 80%;
+  }
+  h2 {
+    font-size: 80%;
+  }
+  h3 {
+    font-size: 80%;
+  }
+  /*   h4{
     font-size: 70%;
   }
-  h2 {
-    font-size: 60%;
-  }
-  h3 {
+  h5{
     font-size: 70%;
   }
-  h4{
+  h6{
+    font-size: 70%;
+  } */
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45%;
+  }
+  h2 {
+    font-size: 45%;
+  }
+  h3 {
+    font-size: 45%;
+  }
+  /*   h4{
     font-size: 60%;
   }
   h5{
@@ -37,39 +77,45 @@
   }
   h6{
     font-size: 60%;
+  } */
+  #instagram {
+    width: 30px;
+  }
+  #gmail {
+    width: 30px;
+  }
+  
+}
+/* @media (max-width: 425px) {
+  h1 {
+    font-size: 40%;
+  }
+  h2 {
+    font-size: 40%;
+  }
+  h3 {
+    font-size: 40%;
+  }
+  h4{
+    font-size: 50%;
+  }
+  h5{
+    font-size: 50%;
+  }
+  h6{
+    font-size: 50%;
   }
 
-}
-@media (max-width: 992px) {
+} */
+/* @media (max-width: 375px) {
   h1 {
-    font-size: 60%;
+    font-size: 50%;
   }
   h2 {
     font-size: 50%;
   }
   h3 {
-    font-size: 60%;
-  }
-  h4{
     font-size: 50%;
-  }
-  h5{
-    font-size: 50%;
-  }
-  h6{
-    font-size: 50%;
-  }
-
-}
-@media (max-width: 480px) {
-  h1 {
-    font-size: 50%;
-  }
-  h2 {
-    font-size: 40%;
-  }
-  h3 {
-    font-size: 60%;
   }
   h4{
     font-size: 40%;
@@ -81,16 +127,16 @@
     font-size: 40%;
   }
 
-}
-@media (max-width: 320px) {
+} */
+/* @media (max-width: 320px) {
     h1 {
-      font-size: 50%;
+      font-size: 40%;
     }
     h2 {
       font-size: 40%;
     }
     h3 {
-      font-size: 50%;
+      font-size: 40%;
     }
     h4{
       font-size: 35%;
@@ -103,3 +149,4 @@
     }
 
   }
+ */

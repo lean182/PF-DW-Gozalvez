@@ -1,46 +1,11 @@
-/* <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- ======================== METAS ======================== -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ======================== LINKS ======================== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="./media/iconos/favicon-logo.ico"
-      type="image/x-icon"
-    />
-    <!-- ======================== TITLE ======================== -->
-    <title>Bienvenidos!!! - Micaela Jaqueline Saif - Acompañamiento Pedagógico</title>
-  </head>
-  <!-- ======================== BODY ======================== -->
-  <body
-    class="bg-image bg-dark"
-    id="arriba"
-    style="
-      background-image: url(./media/imagens/fondo-de-pag.webp);
-      background-size: cover;
-    "
-  >
-    <!-- ======================== HEADER-NAV ======================== -->
-    <header>
+/* <!-- ======================== HEADER-NAV ======================== -->
+    <header class="header-videos">
       <nav class="navbar navbar-expand-lg navbar">
         <div class="container-fluid justify-content-between">
           <!-- ======================== GIFT-MICA ======================== -->
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="../index.html">
             <img
-              src="./media/videos/micaela_jaqueline_saif.gif"
+              src="../media/videos/micaela_jaqueline_saif.gif"
               class="img-fluid rounded"
               alt="Micaela Jaqueline Saif"
             />
@@ -58,41 +23,38 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- ======================== BOTTON-NAV ======================== -->
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
+          <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav w">
               <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1 "
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link  text-white" href="./index.html">Inicio</a>
+                <a class="nav-link text-black" href="../index.html">Inicio</a>
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/videos.html"
+                <a class="nav-link text-black" href="../pages/videos.html"
                   >Videos</a
                 >
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/imagenes.html"
+                <a class="nav-link text-black" href="../pages/imagenes.html"
                   >Imagenes</a
                 >
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/curriculum.html"
+                <a class="nav-link text-black" href="../pages/curriculum.html"
                   >Curriculum</a
                 >
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/contacto.html"
+                <a class="nav-link text-black" href="../pages/contacto.html"
                   >Contacto</a
                 >
               </li>

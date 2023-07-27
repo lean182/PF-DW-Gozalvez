@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- ======================== METAS ======================== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======================== LINKS ======================== -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link
@@ -15,112 +21,135 @@
       href="../media/iconos/favicon-logo.ico"
       type="image/x-icon"
     />
-    <title>Curriculum</title>
+    <!-- ======================== TITLE ======================== -->
+    <title>Videos - Micaela Jaqueline Saif - Acompañamiento Pedagógico</title>
   </head>
-  <body
-    class="bg-image bg-body-secondary"
-    id="arriba"
-    style="background-image: url()"
-  >
-    <nav class="navbar navbar-expand-lg navbar bg-warning bg-gradient">
-      <div class="container-fluid justify-content-between">
-        <a class="navbar-brand" href="#">
-          <img
-            src="../media/videos/micaela_jaqueline_saif.gif"
-            class="img-fluid rounded"
-            alt="Micaela Jaqueline Saif"
-          />
-        </a>
-        <button
-          class="navbar-toggler border border-2 rounded border-success m-1"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li
-              class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-            >
-              <a class="nav-link text-black" href="../index.html">Inicio</a>
-            </li>
-            <li
-              class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-            >
-              <a class="nav-link text-black" href="../pages/videos.html"
-                >Videos</a
+  <!-- ======================== BODY ======================== -->
+  <body class="bg-body-secondary">
+    <!-- ======================== HEADER-NAV ======================== -->
+    <header class="header-curriculum">
+      <nav class="navbar navbar-expand-lg navbar">
+        <div class="container-fluid justify-content-between">
+          <!-- ======================== GIFT-MICA ======================== -->
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../media/videos/micaela_jaqueline_saif.gif"
+              class="img-fluid rounded"
+              alt="Micaela Jaqueline Saif"
+            />
+          </a>
+          <!-- ======================== BOTTON-NAV-MOBILE ======================== -->
+          <button
+            class="navbar-toggler border border-2 rounded border-success m-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- ======================== BOTTON-NAV ======================== -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-            </li>
-            <li
-              class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-            >
-              <a class="nav-link text-black" href="../pages/imagenes.html"
-                >Imagenes</a
+                <a class="nav-link text-black" href="../index.html">Inicio</a>
+              </li>
+              <li
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-            </li>
-            <li
-              class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-            >
-              <a class="nav-link text-black" href="../pages/curriculum.html"
-                >Curriculum</a
+                <a class="nav-link text-black" href="../pages/videos.html"
+                  >Videos</a
+                >
+              </li>
+              <li
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-            </li>
-            <li
-              class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-            >
-              <a class="nav-link text-black" href="../pages/contacto.html"
-                >Contacto</a
+                <a class="nav-link text-black" href="../pages/imagenes.html"
+                  >Imagenes</a
+                >
+              </li>
+              <li
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-            </li>
-          </ul>
+                <a class="nav-link text-black" href="../pages/curriculum.html"
+                  >Curriculum</a
+                >
+              </li>
+              <li
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
+              >
+                <a class="nav-link text-black" href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+    <!-- ======================== MAIN ======================== -->
     <header>
       <div>
         <div class="container pt-4">
-          <div class="display-4 text-center pt-5" id="titulocv">
-            Mi Currículum
+          <div class="display-4 text-center pt-3" id="titulocv">
+            <h4>Mi Currículum</h4>
           </div>
-          <div class="display-4 text-center pt-5" id="introcv">
-            <p class="p-3">Soy Micaela Saiff</p>
+          <div class="display-4 text-center pt-3" id="introcv">
+            <p class="nombre-bold p-3">Mi nombre es Micaela Saiff</p>
             <p class="p-3">
-              Pedagoga egresada de la Facultad de Filosofía y Letras de la
-              UnCuyo.
+              Soy Pedagoga y Tesista de la Licenciatura en Psicología, ejerzo mi
+              labor desde hace 10 años en escuelas secundarias como docente y
+              parte del servicio de orientación
             </p>
             <p class="p-3">
-              Tesista de la Licenciatura en psicología en la UDA
+              Además, realizo acompañamientos pedagógicos hace 2 años a
+              estudiantes de primaria, secundaria y universitaria, de manera
+              presencial y virtual
             </p>
             <p class="p-3">
-              Trabajo hace 10 años en el ámbito educativo, constantemente
-              formandome sobre el fortalecimiento trayectorias educativas
+              Mi metodología es trabajar de manera personalizada desde un
+              acompañamiento que se acomode al estudiante. Brindando un plan de
+              encuentros, en el que pueda aprender a planificar y organizarse,
+              conocer su estilo de aprendizaje, y apropiarse de estrategias de
+              aprendizaje. También, ayudar a enfrentar miedos a los exámenes
+            </p>
+            <p class="p-3">
+              Constantemente me encuentro capacitando sobre trayectorias
+              educativas, a través de cursos virtuales, jornadas y congresos
+            </p>
+            <p class="p-3">
+              _=_=_=_=_
             </p>
           </div>
         </div>
       </div>
     </header>
-    <footer class="text-white py-3 fixed-bottom d-none d-md-block">
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer-bg text-white py-3 fixed-bottom">
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
-          <div class="col-12 col-md-6 text-md-left">
-            <a href="mailto:jmsaiff@gmail.com">jmsaiff@gmail.com</a>
+          <div class="col text-start">
+            <a href="mailto:jmsaiff@gmail.com"
+              ><img
+                class="animate__animated animate__heartBeat animate__slower"
+                src="../media/iconos/gmail-icon-logo-svgrepo-com.svg"
+                id="gmail"
+                alt="jmsaiff@gmail.com"
+            /></a>
           </div>
-          <div class="col-12 col-md-6 text-md-end">
+          <div class="col text-end">
             <a
               class="text-white"
               href="https://www.instagram.com/acompedago21/"
               target="_blank"
             >
               <img
-                src="../media/iconos/instagram.ico"
+                class="icono__instagram animate__animated animate__heartBeat animate__slower"
+                src="../media/iconos/instagram-1-svgrepo-com.svg"
                 id="instagram"
                 alt="instagram"
               />
@@ -129,7 +158,7 @@
         </div>
       </div>
     </footer>
-
+    <!-- ======================== SCRIPTS ======================== -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

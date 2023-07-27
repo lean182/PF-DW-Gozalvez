@@ -4,7 +4,7 @@
   height: 100vh;
 }
 .section-heading {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .section-subheading {
   font-size: 1ram;
@@ -18,11 +18,9 @@
 .navbar-brand:active {
   width: 250px;
 }
-
-.widthvideo {
-  width: 80%;
-  max-width: 100%;
-  height: auto;
+.main_index {
+  margin-top: 3rem;
+  padding-top: 3rem;
 }
 .header-videos {
   background: rgb(255, 116, 130);
@@ -32,4 +30,27 @@
     rgba(248, 217, 220, 1) 82%,
     rgba(255, 243, 205, 1) 100%
   );
+}
+.header-curriculum {
+  background: rgb(255, 197, 24);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 197, 24, 1) 81%,
+    rgba(233, 236, 239, 1) 100%
+  );
+}
+.nombre-bold {
+  font-weight: bold;
+}
+.header-contactos {
+  background: rgb(80, 79, 79);
+  background: linear-gradient(
+    180deg,
+    rgba(80, 79, 79, 1) 0%,
+    rgba(154, 163, 167, 1) 76%,
+    rgba(207, 244, 252, 1) 100%
+  );
+}
+.contactos-visited:visited{
+color: rgb(132, 0, 255);
 }

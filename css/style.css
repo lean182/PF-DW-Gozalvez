@@ -1,4 +1,40 @@
-@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "lato";
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "lecheet";
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "daylin";
+}
+
+h4 {
+  font-size: 40px;
+  font-family: "lato";
+}
+
+h5 {
+  font-size: 20px;
+  font-family: "rubik";
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  font-family: "nunito";
+}
+
 .bg-image {
   background-size: cover;
   background-position: top;
@@ -6,7 +42,7 @@
 }
 
 .section-heading {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .section-subheading {
@@ -25,10 +61,9 @@
   width: 250px;
 }
 
-.widthvideo {
-  width: 80%;
-  max-width: 100%;
-  height: auto;
+.main_index {
+  margin-top: 3rem;
+  padding-top: 3rem;
 }
 
 .header-videos {
@@ -36,45 +71,70 @@
   background: linear-gradient(180deg, rgb(243, 145, 155) 0%, rgb(248, 217, 220) 82%, rgb(255, 243, 205) 100%);
 }
 
+.header-curriculum {
+  background: rgb(255, 197, 24);
+  background: linear-gradient(180deg, rgb(255, 197, 24) 81%, rgb(233, 236, 239) 100%);
+}
+
+.nombre-bold {
+  font-weight: bold;
+}
+
+.header-contactos {
+  background: rgb(80, 79, 79);
+  background: linear-gradient(180deg, rgb(80, 79, 79) 0%, rgb(154, 163, 167) 76%, rgb(207, 244, 252) 100%);
+}
+
+.contactos-visited:visited {
+  color: rgb(132, 0, 255);
+}
+
 @font-face {
   font-family: "wixmade";
-  src: url(../../fonts/wixmadefor/wixmadefordisplay-semibold.ttf);
+  src: url(../fonts/wixmadefor/wixmadefordisplay-semibold.ttf);
 }
 @font-face {
   font-family: "daylin";
-  src: url(../../fonts/daylin/daylin.ttf);
+  src: url(../fonts/daylin/daylin.ttf);
 }
 @font-face {
   font-family: "lecheet";
-  src: url(../../fonts/lecheet/lecheet.ttf);
+  src: url(../fonts/lecheet/Lecheet.ttf);
 }
 @font-face {
   font-family: "nunito";
-  src: url(../../fonts/nunito_sans/nunitosans_10pt_expanded-extralight.ttf);
+  src: url(../fonts/nunito_sans/nunitosans_10pt_expanded-extralight.ttf);
 }
 @font-face {
   font-family: "lato";
-  src: url(../../fonts/lato/lato-italic.ttf);
+  src: url(../fonts/lato/lato-italic.ttf);
 }
 @font-face {
   font-family: "rubik";
-  src: url(../../fonts/rubik/rubik-light.ttf);
+  src: url(../fonts/rubik/rubik-light.ttf);
 }
 /* <!-- ======================== FOOTER ======================== -->
-    <footer class="text-white py-3 fixed-bottom  ">
+    <footer class="text-white py-3 fixed-bottom">
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
           <div class="col text-start">
-            <a href="mailto:jmsaiff@gmail.com"><img class="animate__animated animate__heartBeat animate__slower" src="./media/iconos/gmail-icon-logo-svgrepo-com.svg" id="gmail" alt="jmsaiff@gmail.com"></a>
+            <a href="mailto:jmsaiff@gmail.com"
+              ><img
+                class="animate__animated animate__heartBeat animate__slower"
+                src="../media/iconos/gmail-icon-logo-svgrepo-com.svg"
+                id="gmail"
+                alt="jmsaiff@gmail.com"
+            /></a>
           </div>
-          <div class="col text-end ">
+          <div class="col text-end">
             <a
-              class="text-white "
+              class="text-white"
               href="https://www.instagram.com/acompedago21/"
               target="_blank"
             >
-              <img class="icono__instagram animate__animated animate__heartBeat animate__slower"
-                src="./media/iconos/instagram-1-svgrepo-com.svg"
+              <img
+                class="icono__instagram animate__animated animate__heartBeat animate__slower"
+                src="../media/iconos/instagram-1-svgrepo-com.svg"
                 id="instagram"
                 alt="instagram"
               />
@@ -83,49 +143,14 @@
         </div>
       </div>
     </footer> */
-/* <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- ======================== METAS ======================== -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ======================== LINKS ======================== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="./media/iconos/favicon-logo.ico"
-      type="image/x-icon"
-    />
-    <!-- ======================== TITLE ======================== -->
-    <title>Bienvenidos!!! - Micaela Jaqueline Saif - Acompañamiento Pedagógico</title>
-  </head>
-  <!-- ======================== BODY ======================== -->
-  <body
-    class="bg-image bg-dark"
-    id="arriba"
-    style="
-      background-image: url(./media/imagens/fondo-de-pag.webp);
-      background-size: cover;
-    "
-  >
-    <!-- ======================== HEADER-NAV ======================== -->
-    <header>
+/* <!-- ======================== HEADER-NAV ======================== -->
+    <header class="header-videos">
       <nav class="navbar navbar-expand-lg navbar">
         <div class="container-fluid justify-content-between">
           <!-- ======================== GIFT-MICA ======================== -->
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="../index.html">
             <img
-              src="./media/videos/micaela_jaqueline_saif.gif"
+              src="../media/videos/micaela_jaqueline_saif.gif"
               class="img-fluid rounded"
               alt="Micaela Jaqueline Saif"
             />
@@ -143,41 +168,38 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- ======================== BOTTON-NAV ======================== -->
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
+          <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav w">
               <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1 "
+                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link  text-white" href="./index.html">Inicio</a>
+                <a class="nav-link text-black" href="../index.html">Inicio</a>
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/videos.html"
+                <a class="nav-link text-black" href="../pages/videos.html"
                   >Videos</a
                 >
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/imagenes.html"
+                <a class="nav-link text-black" href="../pages/imagenes.html"
                   >Imagenes</a
                 >
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/curriculum.html"
+                <a class="nav-link text-black" href="../pages/curriculum.html"
                   >Curriculum</a
                 >
               </li>
               <li
                 class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
               >
-                <a class="nav-link text-white" href="./pages/contacto.html"
+                <a class="nav-link text-black" href="../pages/contacto.html"
                   >Contacto</a
                 >
               </li>
@@ -187,40 +209,37 @@
       </nav>
     </header> */
 #portadaTexto1 {
-  font-family: "lato";
   font-size: 3rem;
 }
 
 #portadaTexto2 {
-  font-family: "lecheet";
   font-size: 4.35rem;
 }
 
 #portadaTexto3 {
-  font-family: "daylin";
   font-size: 3rem;
 }
 
-/* #textomedio {
-  font-family: "wixmadefor";
+#textomedio {
   font-size: 20px;
 }
+
 #titulocv {
-  font-family: "riseup";
-  font-size: 4rem;
+  font-size: 2rem;
 }
+
 #introcv {
-  font-family: "nunito";
   font-size: 1rem;
 }
+
 #textocv {
-  font-family: "wixmadefor";
   font-size: 20px;
 }
+
 #datoscontacto {
-  font-family: "wixmadefor";
   font-size: 20px;
-} */
+}
+
 #instagram {
   width: 40px;
 }
@@ -229,142 +248,158 @@
   width: 40px;
 }
 
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 40px;
-}
-
-h4 {
-  font-size: 30px;
-}
-
-h5 {
-  font-size: 20px;
-}
-
-h6 {
-  font-size: 15px;
-}
-
-.main_index {
-  margin-top: 3rem;
-  padding-top: 3rem;
-}
-
 /* <!-- ======================== ======================== --> */
 /*  col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@media (max-width: 1200px) {
+/* @media (max-width: 2560px) {
   h1 {
-    font-size: 80%;
+    font-size: 100%;
   }
   h2 {
-    font-size: 70%;
+    font-size: 100%;
   }
   h3 {
+    font-size: 100%;
+  }
+  h4{
+    font-size: 90%;
+  }
+  h5{
+    font-size: 90%;
+  }
+  h6{
+    font-size: 90%;
+  }
+
+} */
+@media (max-width: 1440px) {
+  /* h1 {
+    font-size: 90%;
+  }
+  h2 {
+    font-size: 90%;
+  }
+  h3 {
+    font-size: 90%;
+  }
+  h4{
     font-size: 80%;
   }
-  h4 {
-    font-size: 70%;
+  h5{
+    font-size: 80%;
   }
-  h5 {
-    font-size: 70%;
-  }
-  h6 {
-    font-size: 70%;
-  }
+  h6{
+    font-size: 80%;
+  } */
 }
 @media (max-width: 1024px) {
   h1 {
+    font-size: 80%;
+  }
+  h2 {
+    font-size: 80%;
+  }
+  h3 {
+    font-size: 80%;
+  }
+  /*   h4{
     font-size: 70%;
   }
-  h2 {
-    font-size: 60%;
-  }
-  h3 {
+  h5{
     font-size: 70%;
   }
-  h4 {
-    font-size: 60%;
-  }
-  h5 {
-    font-size: 60%;
-  }
-  h6 {
-    font-size: 60%;
-  }
+  h6{
+    font-size: 70%;
+  } */
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   h1 {
-    font-size: 60%;
+    font-size: 45%;
   }
   h2 {
-    font-size: 50%;
+    font-size: 45%;
   }
   h3 {
+    font-size: 45%;
+  }
+  /*   h4{
     font-size: 60%;
   }
-  h4 {
-    font-size: 50%;
-  }
-  h5 {
-    font-size: 50%;
-  }
-  h6 {
-    font-size: 50%;
-  }
-}
-@media (max-width: 480px) {
-  h1 {
-    font-size: 50%;
-  }
-  h2 {
-    font-size: 40%;
-  }
-  h3 {
+  h5{
     font-size: 60%;
   }
-  h4 {
-    font-size: 40%;
+  h6{
+    font-size: 60%;
+  } */
+  #instagram {
+    width: 30px;
   }
-  h5 {
-    font-size: 40%;
-  }
-  h6 {
-    font-size: 40%;
+  #gmail {
+    width: 30px;
   }
 }
-@media (max-width: 320px) {
+/* @media (max-width: 425px) {
   h1 {
-    font-size: 50%;
+    font-size: 40%;
   }
   h2 {
     font-size: 40%;
   }
   h3 {
+    font-size: 40%;
+  }
+  h4{
     font-size: 50%;
   }
-  h4 {
-    font-size: 35%;
+  h5{
+    font-size: 50%;
   }
-  h5 {
-    font-size: 35%;
+  h6{
+    font-size: 50%;
   }
-  h6 {
-    font-size: 35%;
+
+} */
+/* @media (max-width: 375px) {
+  h1 {
+    font-size: 50%;
   }
-}
+  h2 {
+    font-size: 50%;
+  }
+  h3 {
+    font-size: 50%;
+  }
+  h4{
+    font-size: 40%;
+  }
+  h5{
+    font-size: 40%;
+  }
+  h6{
+    font-size: 40%;
+  }
+
+} */
+/* @media (max-width: 320px) {
+    h1 {
+      font-size: 40%;
+    }
+    h2 {
+      font-size: 40%;
+    }
+    h3 {
+      font-size: 40%;
+    }
+    h4{
+      font-size: 35%;
+    }
+    h5{
+      font-size: 35%;
+    }
+    h6{
+      font-size: 35%;
+    }
+
+  }
+ */
 
 /*# sourceMappingURL=style.css.map */
