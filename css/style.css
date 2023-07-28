@@ -66,6 +66,10 @@ p {
   padding-top: 3rem;
 }
 
+.nombre-bold {
+  font-weight: bold;
+}
+
 .header-videos {
   background: rgb(255, 116, 130);
   background: linear-gradient(180deg, rgb(243, 145, 155) 0%, rgb(248, 217, 220) 82%, rgb(255, 243, 205) 100%);
@@ -76,10 +80,6 @@ p {
   background: linear-gradient(180deg, rgb(255, 197, 24) 81%, rgb(233, 236, 239) 100%);
 }
 
-.nombre-bold {
-  font-weight: bold;
-}
-
 .header-contactos {
   background: rgb(80, 79, 79);
   background: linear-gradient(180deg, rgb(80, 79, 79) 0%, rgb(154, 163, 167) 76%, rgb(207, 244, 252) 100%);
@@ -87,6 +87,11 @@ p {
 
 .contactos-visited:visited {
   color: rgb(132, 0, 255);
+}
+
+.header-imagenes {
+  background: rgb(67, 68, 69);
+  background: linear-gradient(180deg, rgb(67, 68, 69) 0%, rgb(77, 81, 87) 63%, rgb(96, 105, 116) 79%, rgb(158, 167, 181) 93%, rgb(207, 226, 255) 100%);
 }
 
 @font-face {

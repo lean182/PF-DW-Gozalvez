@@ -22,6 +22,9 @@
   margin-top: 3rem;
   padding-top: 3rem;
 }
+.nombre-bold {
+  font-weight: bold;
+}
 .header-videos {
   background: rgb(255, 116, 130);
   background: linear-gradient(
@@ -39,9 +42,6 @@
     rgba(233, 236, 239, 1) 100%
   );
 }
-.nombre-bold {
-  font-weight: bold;
-}
 .header-contactos {
   background: rgb(80, 79, 79);
   background: linear-gradient(
@@ -51,6 +51,17 @@
     rgba(207, 244, 252, 1) 100%
   );
 }
-.contactos-visited:visited{
-color: rgb(132, 0, 255);
+.contactos-visited:visited {
+  color: rgb(132, 0, 255);
+}
+.header-imagenes {
+  background: rgb(67, 68, 69);
+  background: linear-gradient(
+    180deg,
+    rgba(67, 68, 69, 1) 0%,
+    rgba(77, 81, 87, 1) 63%,
+    rgba(96, 105, 116, 1) 79%,
+    rgba(158, 167, 181, 1) 93%,
+    rgba(207, 226, 255, 1) 100%
+  );
 }
