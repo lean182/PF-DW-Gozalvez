@@ -96,7 +96,7 @@ p {
 
 @font-face {
   font-family: "wixmade";
-  src: url(../fonts/wixmadefor/wixmadefordisplay-semibold.ttf);
+  src: url(../../fonts/wixmadefor/wixmadefordisplay-semibold.ttf);
 }
 @font-face {
   font-family: "daylin";
@@ -118,101 +118,6 @@ p {
   font-family: "rubik";
   src: url(../fonts/rubik/rubik-light.ttf);
 }
-/* <!-- ======================== FOOTER ======================== -->
-    <footer class="text-white py-3 fixed-bottom">
-      <div class="container-fluid">
-        <div class="row justify-content-between align-items-center">
-          <div class="col text-start">
-            <a href="mailto:jmsaiff@gmail.com"
-              ><img
-                class="animate__animated animate__heartBeat animate__slower"
-                src="../media/iconos/gmail-icon-logo-svgrepo-com.svg"
-                id="gmail"
-                alt="jmsaiff@gmail.com"
-            /></a>
-          </div>
-          <div class="col text-end">
-            <a
-              class="text-white"
-              href="https://www.instagram.com/acompedago21/"
-              target="_blank"
-            >
-              <img
-                class="icono__instagram animate__animated animate__heartBeat animate__slower"
-                src="../media/iconos/instagram-1-svgrepo-com.svg"
-                id="instagram"
-                alt="instagram"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer> */
-/* <!-- ======================== HEADER-NAV ======================== -->
-    <header class="header-videos">
-      <nav class="navbar navbar-expand-lg navbar">
-        <div class="container-fluid justify-content-between">
-          <!-- ======================== GIFT-MICA ======================== -->
-          <a class="navbar-brand" href="../index.html">
-            <img
-              src="../media/videos/micaela_jaqueline_saif.gif"
-              class="img-fluid rounded"
-              alt="Micaela Jaqueline Saif"
-            />
-          </a>
-          <!-- ======================== BOTTON-NAV-MOBILE ======================== -->
-          <button
-            class="navbar-toggler border border-2 rounded border-success m-1"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- ======================== BOTTON-NAV ======================== -->
-          <div class="collapse navbar-collapse justify-content-end">
-            <ul class="navbar-nav w">
-              <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-              >
-                <a class="nav-link text-black" href="../index.html">Inicio</a>
-              </li>
-              <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-              >
-                <a class="nav-link text-black" href="../pages/videos.html"
-                  >Videos</a
-                >
-              </li>
-              <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-              >
-                <a class="nav-link text-black" href="../pages/imagenes.html"
-                  >Imagenes</a
-                >
-              </li>
-              <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-              >
-                <a class="nav-link text-black" href="../pages/curriculum.html"
-                  >Curriculum</a
-                >
-              </li>
-              <li
-                class="nav-item btn btn-outline-success border border-2 text-center rounded border-success m-1"
-              >
-                <a class="nav-link text-black" href="../pages/contacto.html"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header> */
 #portadaTexto1 {
   font-size: 3rem;
 }
