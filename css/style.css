@@ -108,7 +108,7 @@ p {
 }
 @font-face {
   font-family: "nunito";
-  src: url(../fonts/nunito_sans/nunitosans_10pt_expanded-extralight.ttf);
+  src: url(../../fonts/nunito_sans/nunitosans_10pt_expanded-extralight.ttf);
 }
 @font-face {
   font-family: "lato";
