@@ -65,6 +65,35 @@
     rgba(207, 226, 255, 1) 100%
   );
 }
-.body-color{
-  background-color: #fff3cd;
+.body-color-videos {
+  background-color: var(--body-color-videos);
 }
+.body-color-imagenes {
+  background-color: var(--body-color-imagenes);
+}
+.body-color-curriculum {
+  background-color: var(--body-color-curriculum);
+}
+.body-color-contacto {
+  background-color: var(--body-color-contacto);
+}
+
+.border-success {
+  border-color: var(--nav-border-color) !important;
+ 
+}
+.btn-outline-success:hover {
+  background-color: var(--nav-border-color);
+  
+}
+.text-black:hover {
+  color: white !important;
+}
+.navbar-nav:hover{
+  color: white !important;
+  
+}
+.nav-item:hover{
+  color: white !important;
+}
+
