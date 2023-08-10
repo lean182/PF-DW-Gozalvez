@@ -35,6 +35,10 @@ p {
   font-family: "nunito";
 }
 
+li:hover a {
+  color: white !important;
+}
+
 :root {
   --body-color-videos: #fff3cd;
   --body-color-imagenes: #cfe2ff;
@@ -135,18 +139,6 @@ p {
 
 .btn-outline-success:hover {
   background-color: var(--nav-border-color);
-}
-
-.text-black:hover {
-  color: white !important;
-}
-
-.navbar-nav:hover {
-  color: white !important;
-}
-
-.nav-item:hover {
-  color: white !important;
 }
 
 @font-face {

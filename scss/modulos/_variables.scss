@@ -28,6 +28,10 @@ p {
   font-size: 15px;
   font-family: "nunito";
 }
+li:hover a{
+  color: white !important;
+}
+
 
 :root {
   --body-color-videos: #fff3cd;
