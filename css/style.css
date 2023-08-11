@@ -19,7 +19,7 @@
 }
 @font-face {
   font-family: "lecheet";
-  src: url(../fonts/lecheet/Lecheet.ttf);
+  src: url(../fonts/lecheet/);
 }
 @font-face {
   font-family: "nunito";
@@ -177,6 +177,7 @@ li:hover {
 
 .body-color-contacto {
   background-color: var(--body-color-contacto);
+  color: #483A52;
 }
 
 .caja-wpp {
@@ -284,23 +285,15 @@ li:hover {
 /* ======================== + 1440PX ======================== */
 @media (max-width: 2560px) {
   /*   h1 {
-    font-size: 100%;
-  }
-  h2 {
-    font-size: 100%;
-  }
-  h3 {
-    font-size: 100%;
-  }
-  h4{
-    font-size: 90%;
-  }
-  h5{
-    font-size: 90%;
-  }
-  p{
-    font-size: 90%;
-  } */
+     font-size: 100%;
+   }
+   h2 {
+     font-size: 100%;
+   }
+   h3 {
+     font-size: 100%;
+   }
+  */
   h4 {
     font-size: 2.5rem;
   }
