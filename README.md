@@ -1,6 +1,8 @@
 Entrega Final - Gozalvez
 Desarrollo de una página web para promocionar los servicios pedagógicos de Jacqueline Micaela Saiff.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afbd80e0-db5b-4664-9123-f6e3c799b145/deploy-status?branch=main)](https://app.netlify.com/sites/jmsaiff-pedagoga/deploys)
+
 Índice
 1. Introducción al Proyecto
 2. Objetivos del Proyecto
