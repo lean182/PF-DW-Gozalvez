@@ -1,0 +1,11 @@
+@mixin font-size-and-family($size, $family) {
+  font-size: $size;
+  font-family: $family;
+}
+@mixin box-shadow($color) {
+  box-shadow: 5px 5px 15px $color;
+}
+
+@mixin transition($property) {
+  transition: $property;
+}

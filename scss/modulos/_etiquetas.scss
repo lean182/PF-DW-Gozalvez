@@ -1,32 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @extend %reset-box;
 }
+
 h1 {
-  font-size: 50px;
-  font-family: "lato";
+  @include font-size-and-family(50px, $font-lato);
 }
+
 h2 {
-  font-size: 60px;
-  font-family: "lecheet";
+  @include font-size-and-family(60px, $font-lecheet);
 }
+
 h3 {
-  font-size: 40px;
-  font-family: "daylin";
+  @include font-size-and-family(40px, $font-daylin);
 }
+
 h4 {
-  font-size: 40px;
-  font-family: "lato";
+  @include font-size-and-family(40px, $font-lato);
 }
+
 h5 {
-  font-size: 20px;
-  font-family: "rubik";
+  @include font-size-and-family(20px, $font-rubik);
   font-weight: bold;
 }
+
 p {
-  font-size: 15px;
-  font-family: "nunito";
+  @include font-size-and-family(15px, $font-nunito);
 }
 li:hover a {
   color: white !important;
