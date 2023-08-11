@@ -29,8 +29,8 @@ En nuestra sociedad actual, cada vez más digitalizada, la presencia en línea s
 - Uso de colores y tipografías alineados a la imagen profesional y personal de Jacqueline Micaela Saiff.
 
 4. Funcionalidades Implementadas
-- Introduccion animada y divertida.
-- Imagenes y videos reflexivos (Responsive).
+- Introducción animada y divertida.
+- Imágenes y videos reflexivos (Responsivo).
 - Información especifica de la carrera laboral de Jacqueline Micaela Saiff. 
 - Integración con redes sociales.
 - Formulario de contacto interactivo.
@@ -38,25 +38,25 @@ En nuestra sociedad actual, cada vez más digitalizada, la presencia en línea s
 5. Tecnologías Utilizadas
 - HTML5, SASS y CSS3.
 - Bootstrap como frameworks utilizado.
-- Figma como herramienta de diseño y portotipado.
-- Sevidor de respaldo GitHub.
-- Hosting utilizado Netlify.
+- Figma como herramienta de diseño y prototipado.
+- Servidor de respaldo GitHub.
+- Hosting empleado Netlify.
 
 6. Desafíos Superados
 - Mejoras significativas en el diseño previsto en Figma.
 - Etapas de pre entrega del proyecto.
-- Implementacion responsiva del proyecto a diferentes dispositivos.
+- Implementación responsiva del proyecto a diferentes dispositivos.
 - Optimización del rendimiento.
 
 7. Conclusiones
-El desarrollo de este sitio web no ha sido sólo un ejercicio técnico, sino también un viaje de aprendizaje y descubrimiento. Durante el proceso, hemos aprendido la importancia de la comunicación constante con los stakeholders, de mantenerse actualizado con las últimas tendencias de diseño y tecnología, y de centrarse en las necesidades y deseos de los usuarios finales.
+El desarrollo de este sitio web no ha sido solo un ejercicio técnico, sino también un viaje de aprendizaje y descubrimiento. Durante el proceso, hemos aprendido la importancia de la comunicación constante con los stakeholders, de mantenerse actualizado con las últimas tendencias de diseño y tecnología, y de centrarse en las necesidades y deseos de los usuarios finales.
 
   Algunos puntos clave de reflexión incluyen:
-  - Iteración y Retroalimentación: La importancia de iterar basándonos en feedback real ha sido crucial. Las mejoras realizadas en el diseño inicial en Figma, así como las adaptaciones a los desafíos técnicos, se hicieron posibles gracias a un proceso iterativo y una comunicación constante con nuestro clente (Jacqueline Micaela Saiff).
+  - Iteración y Retroalimentación: La importancia de iterar basándonos en feedback real ha sido crucial. Las mejoras realizadas en el diseño inicial en Figma, así como las adaptaciones a los desafíos técnicos, se hicieron posibles gracias a un proceso iterativo y una comunicación constante con nuestro cliente (Jacqueline Micaela Saiff).
 
   - Diseño Responsivo: A medida que el mundo se vuelve cada vez más móvil, nos dimos cuenta de la esencialidad de tener un sitio que funcione de manera óptima en cualquier dispositivo. Este proyecto ha reforzado la importancia de la adaptabilidad en el diseño web.
 
-  - Conexión con el usuario: Entender a nuestro público objetivo fue crucial. Al considerar las necesidades y expectativas de los visitantes, pudimos crear un sitio más intuitivo y atractivo.
+  - Conexión con el usuario: Entender a nuestro público objetivo fue fundamental. Al considerar las necesidades y expectativas de los visitantes, pudimos crear un sitio más intuitivo y atractivo.
 
   En cuanto al impacto esperado en el negocio de Micaela:
 
@@ -66,14 +66,14 @@ El desarrollo de este sitio web no ha sido sólo un ejercicio técnico, sino tam
 
   - Interacción y Compromiso: Con la integración de redes sociales y el formulario de contacto interactivo, prevemos un aumento en la interacción y el compromiso de los usuarios, lo que podría llevar a una relación más profunda y duradera con los clientes.
 
-En resumen, este proyecto ha sido una invaluable oportunidad para crecer profesionalmente, adaptarnos a desafíos inesperados y, lo más importante, crear una herramienta que esperamos impulse el negocio de Jacqueline hacia nuevos horizontes.
+En resumen, este proyecto ha sido una invaluable oportunidad para crecer profesionalmente, adaptarnos a desafíos inesperados y, lo más importante, generar una herramienta que esperamos impulse el negocio de Jacqueline hacia nuevos horizontes.
 
 8. Preguntas y Respuestas
 Agradecemos profundamente el tiempo y la atención que han dedicado a conocer nuestro proyecto. Valoramos mucho sus opiniones, preguntas y comentarios, ya que estos nos ayudan a mejorar y a ver el proyecto desde diferentes perspectivas.
 
 Por favor, no duden en compartir cualquier pregunta, inquietud o comentario que tengan respecto a nuestro trabajo. Estamos aquí para responder y discutir cualquier aspecto que deseen abordar.
 
-**Despues de aquí agregen los comentarios**
+**Después de aquí agreguen los comentarios**
 
 
 
@@ -83,7 +83,7 @@ Por favor, no duden en compartir cualquier pregunta, inquietud o comentario que 
 Finalización:
 Agradecimientos por el tiempo y la atención.
 Mis datos de contacto o redes sociales para futuros proyectos o consultas son:
-- Correos Electronico:
+- Correos Electrónico:
   [Hotmail](goz_leandro@hotmail.com)
   [Gmail](gozalvezleandro@gmail.com)
 - Instagram:
