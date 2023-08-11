@@ -97,8 +97,12 @@
   );
 }
 .contactos-visited {
-  color: rgb(38, 0, 255);
+  color: blue;
   text-decoration: none;
+}
+.contactos-visited:hover {
+  transform: scale(0.9);
+  color: rgb(144, 0, 255);
 }
 .body-color-contacto {
   background-color: var(--body-color-contacto);
