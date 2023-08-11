@@ -84,8 +84,8 @@ Finalización:
 Agradecimientos por el tiempo y la atención.
 Mis datos de contacto o redes sociales para futuros proyectos o consultas son:
 
-- [Hotmail](goz_leandro@hotmail.com) goz_leandro@hotmail.com
-- [Gmail](gozalvezleandro@gmail.com) gozalvezleandro@gmail.com
+- goz_leandro@hotmail.com
+- gozalvezleandro@gmail.com
 - [Instagram](https://www.instagram.com/leandrogozalvez/)
 - [Facebook](https://www.facebook.com/leandro.gozalvez.1)
 - [WhatsApp](https://wa.me/+5492617093456)
