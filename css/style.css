@@ -9,6 +9,30 @@
   --nav-texto-2-color: #ffffff;
 }
 
+@font-face {
+  font-family: "wixmade";
+  src: url(../fonts/wixmadefor/wixmadefordisplay-semibold.ttf);
+}
+@font-face {
+  font-family: "daylin";
+  src: url(../fonts/daylin/daylin.ttf);
+}
+@font-face {
+  font-family: "lecheet";
+  src: url(../fonts/lecheet/Lecheet.ttf);
+}
+@font-face {
+  font-family: "nunito";
+  src: url(../fonts/nunito_sans/nunitosans_10pt_expanded-extralight.ttf);
+}
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/lato/lato-italic.ttf);
+}
+@font-face {
+  font-family: "rubik";
+  src: url(../fonts/rubik/rubik-light.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -232,30 +256,6 @@ li:hover {
   width: 30px !important;
 }
 
-@font-face {
-  font-family: "wixmade";
-  src: url(/fonts/wixmadefor/wixmadefordisplay-semibold.ttf);
-}
-@font-face {
-  font-family: "daylin";
-  src: url(/fonts/daylin/daylin.ttf);
-}
-@font-face {
-  font-family: "lecheet";
-  src: url(/fonts/lecheet/Lecheet.ttf);
-}
-@font-face {
-  font-family: "nunito";
-  src: url(/fonts/nunito_sans/nunitosans_10pt_expanded-extralight.ttf);
-}
-@font-face {
-  font-family: "lato";
-  src: url(/fonts/lato/lato-italic.ttf);
-}
-@font-face {
-  font-family: "rubik";
-  src: url(/fonts/rubik/rubik-light.ttf);
-}
 #portadaTexto1 {
   font-size: 3rem;
 }
