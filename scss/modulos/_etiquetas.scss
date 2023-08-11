@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px;
+  font-family: "lato";
+}
+h2 {
+  font-size: 60px;
+  font-family: "lecheet";
+}
+h3 {
+  font-size: 40px;
+  font-family: "daylin";
+}
+h4 {
+  font-size: 40px;
+  font-family: "lato";
+}
+h5 {
+  font-size: 20px;
+  font-family: "rubik";
+  font-weight: bold;
+}
+p {
+  font-size: 15px;
+  font-family: "nunito";
+}
+li:hover a {
+  color: white !important;
+}
+li:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}

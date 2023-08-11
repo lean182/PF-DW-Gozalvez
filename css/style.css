@@ -1,3 +1,14 @@
+@charset "UTF-8";
+:root {
+  --body-color-videos: #fff3cd;
+  --body-color-imagenes: #ccd3ff;
+  --body-color-curriculum: #d3ffb5;
+  --body-color-contacto: #e1b5ff;
+  --nav-border-color: #115d68;
+  --nav-text-1-color: #000000;
+  --nav-texto-2-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -39,23 +50,62 @@ li:hover a {
   color: white !important;
 }
 
-:root {
-  --body-color-videos: #fff3cd;
-  --body-color-imagenes: #cfe2ff;
-  --body-color-curriculum: #e9ecef;
-  --body-color-contacto: #cff4fc;
-  --nav-border-color: #115d68;
-  --nav-btn-outline-color: #ff7700;
-  --nav-text-1-color: #ff00ff;
-  --nav-texto-2-color: #ae00ff;
-  --main-color-videos: #00b7ff;
-  --main-color-imagenes: #00b7ff;
-  --main-color-curriculum: #00b7ff;
-  --main-color-contacto: #00b7ff;
-  --footer-color-videos: #ffffff;
-  --footer-color-imagenes: #ffffff;
-  --footer-color-curriculum: #ffffff;
-  --footer-color-contacto: #ffffff;
+li:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======================== NAV ======================== */
+.navbar-brand {
+  width: 210px;
+  transition: all 0.5s ease;
+}
+
+.navbar-brand:hover {
+  width: 230px;
+}
+
+.border-success {
+  border-color: #115d68 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #115d68 !important;
+}
+
+/* ======================== INDEX ======================== */
+.main_index {
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+/* ======================== VIDEOS ======================== */
+.header-videos {
+  background: rgb(255, 116, 130);
+  background: linear-gradient(180deg, rgb(243, 145, 155) 0%, rgb(248, 217, 220) 82%, rgb(255, 243, 205) 100%);
+}
+
+.body-color-videos {
+  background-color: var(--body-color-videos);
+  color: #4d5380;
+}
+
+.text-color-video {
+  color: #4d5380;
+}
+
+.video-sombra {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======================== IMÁGENES ======================== */
+.header-imagenes {
+  background: rgb(255, 236, 207);
+  background: linear-gradient(180deg, rgb(255, 236, 207) 69%, rgb(230, 224, 230) 84%, rgb(204, 211, 255) 100%);
+}
+
+.body-color-imagenes {
+  background-color: var(--body-color-imagenes);
+  color: #474959;
 }
 
 .bg-image {
@@ -64,81 +114,122 @@ li:hover a {
   height: 100vh;
 }
 
-.section-heading {
-  font-size: 2rem;
+.img-hover {
+  transition: all 0.5s ease;
 }
 
-.section-subheading {
-  font-size: 1ram;
+.img-hover:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.navbar-brand {
-  width: 210px;
-}
-
-.navbar-brand:hover {
-  width: 230px;
-}
-
-.navbar-brand:active {
-  width: 250px;
-}
-
-.main_index {
-  margin-top: 3rem;
-  padding-top: 3rem;
-}
-
-.nombre-bold {
-  font-weight: bold;
-}
-
-.header-videos {
-  background: rgb(255, 116, 130);
-  background: linear-gradient(180deg, rgb(243, 145, 155) 0%, rgb(248, 217, 220) 82%, rgb(255, 243, 205) 100%);
-}
-
+/* ======================== CURÍCULUM ======================== */
 .header-curriculum {
-  background: rgb(255, 197, 24);
-  background: linear-gradient(180deg, rgb(255, 197, 24) 81%, rgb(233, 236, 239) 100%);
-}
-
-.header-contactos {
-  background: rgb(80, 79, 79);
-  background: linear-gradient(180deg, rgb(80, 79, 79) 0%, rgb(154, 163, 167) 76%, rgb(207, 244, 252) 100%);
-}
-
-.contactos-visited:visited {
-  color: rgb(132, 0, 255);
-}
-
-.header-imagenes {
-  background: rgb(67, 68, 69);
-  background: linear-gradient(180deg, rgb(67, 68, 69) 0%, rgb(77, 81, 87) 63%, rgb(96, 105, 116) 79%, rgb(158, 167, 181) 93%, rgb(207, 226, 255) 100%);
-}
-
-.body-color-videos {
-  background-color: var(--body-color-videos);
-}
-
-.body-color-imagenes {
-  background-color: var(--body-color-imagenes);
+  background: rgb(181, 211, 255);
+  background: linear-gradient(180deg, rgb(181, 211, 255) 69%, rgb(193, 228, 226) 87%, rgb(211, 255, 181) 100%);
 }
 
 .body-color-curriculum {
   background-color: var(--body-color-curriculum);
 }
 
+.nombre-bold {
+  font-weight: bold;
+}
+
+.color-texto-cv {
+  color: #203015;
+}
+
+/* ======================== CONTACTO ======================== */
+.header-contactos {
+  background: rgb(181, 255, 240);
+  background: linear-gradient(180deg, rgb(181, 255, 240) 0%, rgb(203, 218, 248) 90%, rgb(225, 181, 255) 100%);
+}
+
+.contactos-visited {
+  color: rgb(38, 0, 255);
+  text-decoration: none;
+}
+
 .body-color-contacto {
   background-color: var(--body-color-contacto);
 }
 
-.border-success {
-  border-color: var(--nav-border-color) !important;
+.caja-wpp {
+  background-color: #ffbcb5;
 }
 
-.btn-outline-success:hover {
-  background-color: var(--nav-border-color);
+.caja-insta {
+  background-color: #d3ffb5;
+}
+
+.caja-email {
+  background-color: #b5f8ff;
+}
+
+.btn-form {
+  background-color: #78B36D;
+  transition: all 0.5s ease;
+}
+
+.btn-form:hover {
+  background-color: #B6FFA8;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+/* ======================== FOOTER ======================== */
+.ico-hover img {
+  transition: transform 1s;
+  position: fixed;
+  top: 93%;
+}
+
+.ico-hover:hover img {
+  transform: scale(1.1);
+}
+
+.bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #333333;
+}
+
+.bottom p {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.custom-font-weight {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.custom-button {
+  background-color: #dddddd;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border-color: #888888;
+  border-style: solid;
+  padding: 1px 9px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+
+.img-poco-texto {
+  width: 30px !important;
 }
 
 @font-face {
@@ -179,16 +270,20 @@ li:hover a {
 
 #instagram {
   width: 40px;
+  right: 10px;
 }
 
 #gmail {
   width: 40px;
+  left: 10px;
 }
 
 /* <!-- ======================== ======================== --> */
+/* ======================== ======================== */
 /*  col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 */
-/* @media (max-width: 2560px) {
-  h1 {
+/* ======================== + 1440PX ======================== */
+@media (max-width: 2560px) {
+  /*   h1 {
     font-size: 100%;
   }
   h2 {
@@ -203,11 +298,24 @@ li:hover a {
   h5{
     font-size: 90%;
   }
-  h6{
+  p{
     font-size: 90%;
+  } */
+  h4 {
+    font-size: 2.5rem;
   }
-
-} */
+  h5 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .video-sombra {
+    width: 16rem !important;
+    height: auto !important;
+  }
+}
+/* ======================== + 1024PX ======================== */
 @media (max-width: 1440px) {
   /* h1 {
     font-size: 90%;
@@ -217,17 +325,26 @@ li:hover a {
   }
   h3 {
     font-size: 90%;
-  }
-  h4{
-    font-size: 80%;
-  }
-  h5{
-    font-size: 80%;
-  }
-  h6{
-    font-size: 80%;
   } */
+  h4 {
+    font-size: 2.5rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .video-sombra {
+    width: 13rem !important;
+    height: auto !important;
+  }
+  .text-color-video {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
 }
+/* ======================== + 768PX ======================== */
 @media (max-width: 1024px) {
   h1 {
     font-size: 80%;
@@ -238,16 +355,31 @@ li:hover a {
   h3 {
     font-size: 80%;
   }
-  /*   h4{
-    font-size: 70%;
+  h4 {
+    font-size: 2rem;
   }
-  h5{
-    font-size: 70%;
+  h5 {
+    font-size: 1rem;
   }
-  h6{
-    font-size: 70%;
-  } */
+  p {
+    font-size: 0.8rem;
+  }
+  .video-sombra {
+    width: 13rem !important;
+    height: auto !important;
+  }
+  .text-color-video {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  #instagram {
+    width: 30px;
+  }
+  #gmail {
+    width: 30px;
+  }
 }
+/* ======================== + 425PX ======================== */
 @media (max-width: 768px) {
   h1 {
     font-size: 45%;
@@ -258,15 +390,23 @@ li:hover a {
   h3 {
     font-size: 45%;
   }
-  /*   h4{
-    font-size: 60%;
+  h4 {
+    font-size: 2rem;
   }
-  h5{
-    font-size: 60%;
+  h5 {
+    font-size: 1rem;
   }
-  h6{
-    font-size: 60%;
-  } */
+  p {
+    font-size: 0.7rem;
+  }
+  .video-sombra {
+    width: 10rem !important;
+    height: auto !important;
+  }
+  .text-color-video {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+  }
   #instagram {
     width: 30px;
   }
@@ -274,8 +414,9 @@ li:hover a {
     width: 30px;
   }
 }
-/* @media (max-width: 425px) {
-  h1 {
+/* ======================== + 375PX ======================== */
+@media (max-width: 425px) {
+  /*   h1 {
     font-size: 40%;
   }
   h2 {
@@ -283,20 +424,24 @@ li:hover a {
   }
   h3 {
     font-size: 40%;
+  } */
+  h4 {
+    font-size: 2rem;
   }
-  h4{
-    font-size: 50%;
+  h5 {
+    font-size: 1rem;
   }
-  h5{
-    font-size: 50%;
+  p {
+    font-size: 0.7rem;
   }
-  h6{
-    font-size: 50%;
+  .video-sombra {
+    width: 10rem !important;
+    height: auto !important;
   }
-
-} */
-/* @media (max-width: 375px) {
-  h1 {
+}
+/* ======================== + 320PX ======================== */
+@media (max-width: 375px) {
+  /*   h1 {
     font-size: 50%;
   }
   h2 {
@@ -304,20 +449,24 @@ li:hover a {
   }
   h3 {
     font-size: 50%;
+  } */
+  h4 {
+    font-size: 2rem;
   }
-  h4{
-    font-size: 40%;
+  h5 {
+    font-size: 1rem;
   }
-  h5{
-    font-size: 40%;
+  p {
+    font-size: 0.7rem;
   }
-  h6{
-    font-size: 40%;
+  .video-sombra {
+    width: 10rem !important;
+    height: auto !important;
   }
-
-} */
-/* @media (max-width: 320px) {
-    h1 {
+}
+/* ======================== + 216PX ======================== */
+@media (max-width: 320px) {
+  /*   h1 {
       font-size: 40%;
     }
     h2 {
@@ -325,18 +474,30 @@ li:hover a {
     }
     h3 {
       font-size: 40%;
-    }
-    h4{
-      font-size: 35%;
-    }
-    h5{
-      font-size: 35%;
-    }
-    h6{
-      font-size: 35%;
-    }
-
+    } */
+  h4 {
+    font-size: 2rem;
   }
- */
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  .video-sombra {
+    width: 10rem !important;
+    height: auto !important;
+  }
+  .card {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  #instagram {
+    width: 20px;
+  }
+  #gmail {
+    width: 20px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

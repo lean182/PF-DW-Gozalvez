@@ -1,30 +1,25 @@
-.bg-image {
-  background-size: cover;
-  background-position: top;
-  height: 100vh;
-}
-.section-heading {
-  font-size: 2rem;
-}
-.section-subheading {
-  font-size: 1ram;
-}
+/* ======================== NAV ======================== */
 .navbar-brand {
   width: 210px;
+  transition: all 0.5s ease;
 }
 .navbar-brand:hover {
   width: 230px;
 }
-.navbar-brand:active {
-  width: 250px;
+.border-success {
+  border-color: #115d68 !important;
 }
+.btn-outline-success:hover {
+  background-color: #115d68 !important;
+}
+
+/* ======================== INDEX ======================== */
 .main_index {
   margin-top: 3rem;
   padding-top: 3rem;
 }
-.nombre-bold {
-  font-weight: bold;
-}
+
+/* ======================== VIDEOS ======================== */
 .header-videos {
   background: rgb(255, 116, 130);
   background: linear-gradient(
@@ -34,56 +29,141 @@
     rgba(255, 243, 205, 1) 100%
   );
 }
-.header-curriculum {
-  background: rgb(255, 197, 24);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 197, 24, 1) 81%,
-    rgba(233, 236, 239, 1) 100%
-  );
-}
-.header-contactos {
-  background: rgb(80, 79, 79);
-  background: linear-gradient(
-    180deg,
-    rgba(80, 79, 79, 1) 0%,
-    rgba(154, 163, 167, 1) 76%,
-    rgba(207, 244, 252, 1) 100%
-  );
-}
-.contactos-visited:visited {
-  color: rgb(132, 0, 255);
-}
-.header-imagenes {
-  background: rgb(67, 68, 69);
-  background: linear-gradient(
-    180deg,
-    rgba(67, 68, 69, 1) 0%,
-    rgba(77, 81, 87, 1) 63%,
-    rgba(96, 105, 116, 1) 79%,
-    rgba(158, 167, 181, 1) 93%,
-    rgba(207, 226, 255, 1) 100%
-  );
-}
 .body-color-videos {
   background-color: var(--body-color-videos);
+  color: #4d5380;
+}
+.text-color-video {
+  color: #4d5380;
+}
+.video-sombra {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======================== IMÁGENES ======================== */
+.header-imagenes {
+  background: rgb(255, 236, 207);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 236, 207, 1) 69%,
+    rgba(230, 224, 230, 1) 84%,
+    rgba(204, 211, 255, 1) 100%
+  );
 }
 .body-color-imagenes {
   background-color: var(--body-color-imagenes);
+  color: #474959;
+}
+.bg-image {
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+.img-hover {
+  transition: all 0.5s ease;
+}
+.img-hover:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ======================== CURÍCULUM ======================== */
+.header-curriculum {
+  background: rgb(181, 211, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(181, 211, 255, 1) 69%,
+    rgba(193, 228, 226, 1) 87%,
+    rgba(211, 255, 181, 1) 100%
+  );
 }
 .body-color-curriculum {
   background-color: var(--body-color-curriculum);
 }
+.nombre-bold {
+  font-weight: bold;
+}
+.color-texto-cv {
+  color: #203015;
+}
+
+/* ======================== CONTACTO ======================== */
+.header-contactos {
+  background: rgb(181, 255, 240);
+  background: linear-gradient(
+    180deg,
+    rgba(181, 255, 240, 1) 0%,
+    rgba(203, 218, 248, 1) 90%,
+    rgba(225, 181, 255, 1) 100%
+  );
+}
+.contactos-visited {
+  color: rgb(38, 0, 255);
+  text-decoration: none;
+}
 .body-color-contacto {
   background-color: var(--body-color-contacto);
 }
-
-.border-success {
-  border-color: var(--nav-border-color) !important;
- 
+.caja-wpp{
+background-color: #ffbcb5 ;
 }
-.btn-outline-success:hover {
-  background-color: var(--nav-border-color);
-  
+.caja-insta{
+  background-color: #d3ffb5;
 }
-
+.caja-email{
+  background-color: #b5f8ff;
+}
+.btn-form{
+ background-color: #78B36D;
+ transition: all 0.5s ease;
+}
+.btn-form:hover{
+  background-color: #B6FFA8;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+ }
+/* ======================== FOOTER ======================== */
+.ico-hover img {
+  transition: transform 1s;
+  position: fixed;
+  top: 93%;
+}
+.ico-hover:hover img {
+  transform: scale(1.1);
+}
+.bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #333333;
+}
+.bottom p {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.custom-font-weight {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.custom-button {
+  background-color: #dddddd;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border-color: #888888;
+  border-style: solid;
+  padding: 1px 9px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, background-color 0.3s;
+}
+.custom-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+.img-poco-texto {
+  width: 30px !important;
+}

@@ -1,54 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-h1 {
-  font-size: 50px;
-  font-family: "lato";
-}
-h2 {
-  font-size: 60px;
-  font-family: "lecheet";
-}
-h3 {
-  font-size: 40px;
-  font-family: "daylin";
-}
-h4 {
-  font-size: 40px;
-  font-family: "lato";
-}
-h5 {
-  font-size: 20px;
-  font-family: "rubik";
-  font-weight: bold;
-}
-p {
-  font-size: 15px;
-  font-family: "nunito";
-}
-li:hover a{
-  color: white !important;
-}
-
-
 :root {
   --body-color-videos: #fff3cd;
-  --body-color-imagenes: #cfe2ff;
-  --body-color-curriculum: #e9ecef;
-  --body-color-contacto: #cff4fc;
-  --nav-border-color: #115d68;
-  --nav-btn-outline-color: #ff7700;
-  --nav-text-1-color: #ff00ff;
-  --nav-texto-2-color: #ae00ff;
-  --main-color-videos: #00b7ff;
-  --main-color-imagenes: #00b7ff;
-  --main-color-curriculum: #00b7ff;
-  --main-color-contacto: #00b7ff;
-  --footer-color-videos: #ffffff;
-  --footer-color-imagenes: #ffffff;
-  --footer-color-curriculum: #ffffff;
-  --footer-color-contacto: #ffffff;
+  --body-color-imagenes: #ccd3ff;
+  --body-color-curriculum: #d3ffb5;
+  --body-color-contacto: #e1b5ff;
 
+  --nav-border-color: #115d68;
+  --nav-text-1-color: #000000;
+  --nav-texto-2-color: #ffffff;
 }
