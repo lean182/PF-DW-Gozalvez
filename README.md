@@ -1,6 +1,8 @@
 Entrega Final - Gozalvez
 Desarrollo de una página web para promocionar los servicios pedagógicos de Jacqueline Micaela Saiff.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afbd80e0-db5b-4664-9123-f6e3c799b145/deploy-status?branch=main)](https://app.netlify.com/sites/jmsaiff-pedagoga/deploys)
+
 Índice
 1. Introducción al Proyecto
 2. Objetivos del Proyecto
@@ -83,10 +85,8 @@ Por favor, no duden en compartir cualquier pregunta, inquietud o comentario que 
 Finalización:
 Agradecimientos por el tiempo y la atención.
 Mis datos de contacto o redes sociales para futuros proyectos o consultas son:
-
 - goz_leandro@hotmail.com
 - gozalvezleandro@gmail.com
-- [Instagram](https://www.instagram.com/leandrogozalvez/)
-- [Facebook](https://www.facebook.com/leandro.gozalvez.1)
+- [Linkedin](https://www.linkedin.com/in/leandro-ariel-gozalvez-72771a211/)
 - [WhatsApp](https://wa.me/+5492617093456)
      
